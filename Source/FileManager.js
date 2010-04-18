@@ -4,6 +4,8 @@
 authors:
 (c) Fedor FL, ffl.public@gmail.com, MIT License.
 
+license: MIT-style
+
 description:
 <!-- Here should be CKFINDER File manager, i've even started rewrite connector to perl...
 but because fucking demo message [can't they put it into about or smth], I've been forced to write own one. -->
@@ -12,13 +14,13 @@ script: FileManager.js
 
 description: Filemanager app
 
-requires: 
+provides: [FileManager, ]
+
+requ_ires: 
 - /MooTools [Cookie, URI and may be smth els]
 - /Jx.Layout
 - /Jx.Panel
 - /Jx.Splitter
-
-provides: [FileManager, ]
  
 ...
 */
